@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="particle-editor" name="libgdx-tools">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="particle-editor">
+        <jar destfile="E:/Workspaces/libgdx-texturepacker-gui/dist/particle-editor.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="com.lynk.gdx.tool.particleeditor.ParticleEditor"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ gdx-tools-1.9.0.jar gdx-platform-1.9.0-natives-desktop.jar miglayout-swing-5.0.jar gdx-backend-lwjgl-1.9.0.jar gdx-backend-headless-1.9.0.jar gdx-freetype-1.9.0.jar gdx-freetype-platform-1.9.0-natives-desktop.jar miglayout-core-5.0.jar gdx-1.9.0.jar lwjgl-2.9.2.jar lwjgl_util-2.9.2.jar jlayer-1.0.1-gdx.jar jorbis-0.0.17.jar lwjgl-platform-2.9.2-natives-windows.jar lwjgl-platform-2.9.2-natives-linux.jar lwjgl-platform-2.9.2-natives-osx.jar jinput-2.0.5.jar jutils-1.0.0.jar jinput-platform-2.0.5-natives-linux.jar jinput-platform-2.0.5-natives-windows.jar jinput-platform-2.0.5-natives-osx.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="E:/Workspaces/libgdx-texturepacker-gui/bin"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-tools\1.9.0\eb316f4b928c0c29cf23a891974b5b7038b15d23" includes="gdx-tools-1.9.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-platform\1.9.0\bd396a0e63ef2c54c0b0c88abdbb8a4e1944fa66" includes="gdx-platform-1.9.0-natives-desktop.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.miglayout\miglayout-swing\5.0\7b4c4d92002459e68e8f115b9ae8a774b2660490" includes="miglayout-swing-5.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-lwjgl\1.9.0\aa4daf87fbd3f1beba8a3104a609fe122beefbac" includes="gdx-backend-lwjgl-1.9.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-headless\1.9.0\c986d53514c126941f1d27ebfa189e640a692884" includes="gdx-backend-headless-1.9.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-freetype\1.9.0\b03693d840ea49eac2e0ec5c2f61b9e91207ddc3" includes="gdx-freetype-1.9.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-freetype-platform\1.9.0\75b2c03f92ee1b88fc8698751dc55ccc2654f2f7" includes="gdx-freetype-platform-1.9.0-natives-desktop.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.miglayout\miglayout-core\5.0\956daa1576bccb24e727ab75540b078171c7c432" includes="miglayout-core-5.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.0\a064f06e8692c8f7084cd0100529ed8285413ff5" includes="gdx-1.9.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.2\a9d80fe5935c7a9149f6584d9777cfd471f65489" includes="lwjgl-2.9.2.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.2\4b9e37300a87799856e0bd15ed81663cdb6b0947" includes="lwjgl_util-2.9.2.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.jlayer\jlayer\1.0.1-gdx\7cca83cec5c1b2f011362f4d85aabd71a73b049d" includes="jlayer-1.0.1-gdx.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\org.jcraft\jorbis\0.0.17\8872d22b293e8f5d7d56ff92be966e6dc28ebdc6" includes="jorbis-0.0.17.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.2\510c7d317f5e9e700b9cfaac5fd38bdebf0702e0" includes="lwjgl-platform-2.9.2-natives-windows.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.2\d276cdf61fe2b516c7b7f4aa1b8dea91dbdc8d56" includes="lwjgl-platform-2.9.2-natives-linux.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.2\d55b46b40b40249d627a83a7f7f22649709d70c3" includes="lwjgl-platform-2.9.2-natives-osx.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4" includes="jinput-2.0.5.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6" includes="jutils-1.0.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795" includes="jinput-platform-2.0.5-natives-linux.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16" includes="jinput-platform-2.0.5-natives-windows.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232" includes="jinput-platform-2.0.5-natives-osx.jar"/>
+        </jar>
+    </target>
+    <target name="texturepacker-ui">
+        <jar destfile="E:/Workspaces/libgdx-texturepacker-gui/dist/texturepacker-ui.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="com.lynk.gdx.tool.texturepacker.TexturePackerUI"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ gdx-tools-1.9.0.jar gdx-platform-1.9.0-natives-desktop.jar miglayout-swing-5.0.jar gdx-backend-lwjgl-1.9.0.jar gdx-backend-headless-1.9.0.jar gdx-freetype-1.9.0.jar gdx-freetype-platform-1.9.0-natives-desktop.jar miglayout-core-5.0.jar gdx-1.9.0.jar lwjgl-2.9.2.jar lwjgl_util-2.9.2.jar jlayer-1.0.1-gdx.jar jorbis-0.0.17.jar lwjgl-platform-2.9.2-natives-windows.jar lwjgl-platform-2.9.2-natives-linux.jar lwjgl-platform-2.9.2-natives-osx.jar jinput-2.0.5.jar jutils-1.0.0.jar jinput-platform-2.0.5-natives-linux.jar jinput-platform-2.0.5-natives-windows.jar jinput-platform-2.0.5-natives-osx.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="E:/Workspaces/libgdx-texturepacker-gui/bin"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-tools\1.9.0\eb316f4b928c0c29cf23a891974b5b7038b15d23" includes="gdx-tools-1.9.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-platform\1.9.0\bd396a0e63ef2c54c0b0c88abdbb8a4e1944fa66" includes="gdx-platform-1.9.0-natives-desktop.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.miglayout\miglayout-swing\5.0\7b4c4d92002459e68e8f115b9ae8a774b2660490" includes="miglayout-swing-5.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-lwjgl\1.9.0\aa4daf87fbd3f1beba8a3104a609fe122beefbac" includes="gdx-backend-lwjgl-1.9.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-headless\1.9.0\c986d53514c126941f1d27ebfa189e640a692884" includes="gdx-backend-headless-1.9.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-freetype\1.9.0\b03693d840ea49eac2e0ec5c2f61b9e91207ddc3" includes="gdx-freetype-1.9.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-freetype-platform\1.9.0\75b2c03f92ee1b88fc8698751dc55ccc2654f2f7" includes="gdx-freetype-platform-1.9.0-natives-desktop.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.miglayout\miglayout-core\5.0\956daa1576bccb24e727ab75540b078171c7c432" includes="miglayout-core-5.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.0\a064f06e8692c8f7084cd0100529ed8285413ff5" includes="gdx-1.9.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.2\a9d80fe5935c7a9149f6584d9777cfd471f65489" includes="lwjgl-2.9.2.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.2\4b9e37300a87799856e0bd15ed81663cdb6b0947" includes="lwjgl_util-2.9.2.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\com.badlogicgames.jlayer\jlayer\1.0.1-gdx\7cca83cec5c1b2f011362f4d85aabd71a73b049d" includes="jlayer-1.0.1-gdx.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\org.jcraft\jorbis\0.0.17\8872d22b293e8f5d7d56ff92be966e6dc28ebdc6" includes="jorbis-0.0.17.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.2\510c7d317f5e9e700b9cfaac5fd38bdebf0702e0" includes="lwjgl-platform-2.9.2-natives-windows.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.2\d276cdf61fe2b516c7b7f4aa1b8dea91dbdc8d56" includes="lwjgl-platform-2.9.2-natives-linux.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.2\d55b46b40b40249d627a83a7f7f22649709d70c3" includes="lwjgl-platform-2.9.2-natives-osx.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4" includes="jinput-2.0.5.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6" includes="jutils-1.0.0.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795" includes="jinput-platform-2.0.5-natives-linux.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16" includes="jinput-platform-2.0.5-natives-windows.jar"/>
+            <zipfileset dir="D:\Program Files\gradle-2.10\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232" includes="jinput-platform-2.0.5-natives-osx.jar"/>
+        </jar>
+    </target>
+</project>
